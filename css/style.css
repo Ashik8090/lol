@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #222222;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+img,
+ul,
+ol,
+li,
+input,
+form,
+.btn,
+.navbar,
+.breadcrumb,
+.pagination {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    color: #353535;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    font-size: 16px;
+    color: #353535;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #17469e;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: #555555;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.p2 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+
+.btn_com {
+    padding: 9px 21px;
+    display: inline-block;
+    color: #ffffff;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+    font-size: 14px;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+
+.pr0 {
+    padding-right: 0px;
+}
+
+.py_60 {
+    padding: 60px 0px;
+}
+
+.py_70 {
+    padding: 70px 0px;
+}
+
+.pt_60 {
+    padding-top: 60px;
+}
+
+.pb_60 {
+    padding-bottom: 60px;
+}
+
+
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+.mr_5 {
+    margin-right: 5px;
+}
+
+.mr_10 {
+    margin-right: 10px;
+}
+
+.dis_none {
+    display: none;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
+.header-area {
+    background: #0872b9;
+    padding: 10px 0;
+}
+
+.s-icon ul li {
+    margin: 0 12.5px;
+}
+
+.s-icon ul li:last-child {
+    margin-right: 0;
+}
+
+.s-icon ul li a {
+    display: block;
+    color: #f1f1f1;
+
+}
+
+.s-icon ul li:hover a:hover {
+    color: #2c4760;
+
+}
+
+.header-nav {
+    padding: 20px 0px;
+}
+
+.header-nav ul li {
+    margin: 0 7.5px;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+.header-nav ul li:last-child {
+    margin-right: 0;
+    padding: 0;
+}
+
+.header-nav .navbar-nav .nav-item .nav-link:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.header-nav .navbar-nav .nav-item a.active,
+.header-nav ul li:hover a {
+    color: #0872b9;
+}
+
+.banner-part {
+    padding-bottom: 60px;
+}
+
+.banner-part .banner {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.banner-part .banner .layer {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 90px 0px;
+}
+
+.layer h1 {
+    padding-bottom: 30px;
+}
+
+.layer .p2 {
+    padding-bottom: 30px;
+}
+
+.layer a {
+    margin-right: 5px;
+}
+
+.layer a:last-child {
+    margin-right: 0;
+}
+
+.layer a:hover {
+    background: #0872b9;
+    border-color: #0872b9;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    width: 25px;
+    height: 30px;
+}
+
+.about-area{
+    padding-bottom: 60px;
+}
+.comon-heading{
+    padding-bottom: 40px;
+}
+.comon-heading h3{
+    position: relative;
+}
+.comon-heading h3::before{
+    position: absolute;
+    bottom: -3px;
+    background: url(../images/shape.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 2px;
+    content: '';
+}
+.about-con1{
+    padding: 44px 0 40px 0;
+    
+}
+.about-icon{
+    position: absolute;
+    top: -40px;
+    right: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: #f1f1f1;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.4s;
+}
+ .about-items:hover .about-icon{
+    box-shadow: 0 2px 2px #00000070 ;
+    border: 1px solid #5bc6f498;
+}
+.about-items:hover .about-sub-icon{
+    background-color: #5bc5f4;
+}
+.about-icon .about-sub-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #f1f1f1;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.4s;
+}
+.about-content{
+    background: #f1f1f1;
+    text-align: center;
+    transition: all linear 0.4s;
+
+}
+.about-items{
+    position: relative;
+    transition: all linear 0.4s;
+}
